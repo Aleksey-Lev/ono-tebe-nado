@@ -36,3 +36,11 @@ address {
   display: initial; 
   font-style: initial;
 }
+
+button {
+  all: unset;
+  padding-block: 0px;
+  padding-inline: 0px;
+  display: block;
+  text-rendering: initial;
+}

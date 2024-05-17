@@ -11,7 +11,6 @@
   </head>
   <body>
     <header class="header">
-      
       <nav class="header__menu"> <!--контейнер навигации-->
         <ul class="header__links-list"> <!--список ссылок-->
           <li class="header__links-list-item header__links-list-item_no-bullit header__link_active"> <!--активная ссылка - пункт списка ссылок-->
@@ -38,12 +37,25 @@
         <p>наб. Принсенграхт 263-265,<br>
            Амстердам
           </p>
-
       </address>
-
     </header>
+
     <main>
-      <section class="cover"></section>  <!--входная секция-->
+      <section class="cover"><!--входная секция-->
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text">о<span class="letter-spacing-extended">но</span>
+          </span>
+          <span class="aligned-text_center">те<span class="letter-spacing-extended">бе</span>
+          </span>
+          <span class="aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span>
+          </span>
+        </h1>
+        <div class="cover__description">
+          <span class="cover__description-text">аукцион вещей, в которые никто не верил</span>
+          <button class="bet-button">сделать ставку</button>
+        </div>
+      </section>  
       <section class="lots"></section> <!--секция с карточками-->
       <section class="about"></section> <!--секция об аукционе-->
     </main>
