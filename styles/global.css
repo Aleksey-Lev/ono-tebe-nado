@@ -23,6 +23,9 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
 a {
@@ -32,6 +35,7 @@ a {
 img {
   width: 100%;
 }
+
 address {
   display: initial; 
   font-style: initial;
